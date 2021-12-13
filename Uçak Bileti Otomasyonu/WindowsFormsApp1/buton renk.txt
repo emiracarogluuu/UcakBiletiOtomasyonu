@@ -1,0 +1,52 @@
+ private void button1_MouseMove(object sender, MouseEventArgs e)
+        {
+            button1.BackColor = Color.SteelBlue;
+
+            button1.ForeColor = Color.Orange;
+            
+        }
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Orange;
+            button1.ForeColor = Color.SteelBlue;
+        }
+        private void button2_MouseMove(object sender, MouseEventArgs e)
+        {
+            button2.BackColor = Color.SteelBlue;
+            button2.ForeColor = Color.Orange;
+        }
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.Orange;
+            button2.ForeColor = Color.SteelBlue;
+        }
+        private void button3_MouseMove(object sender, MouseEventArgs e)
+        {
+            button3.BackColor = Color.SteelBlue;
+            button3.ForeColor = Color.Orange;
+        }
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.Orange;
+            button3.ForeColor = Color.SteelBlue;
+        }
+        private void button4_MouseMove(object sender, MouseEventArgs e)
+        {
+            button4.BackColor = Color.SteelBlue;
+            button4.ForeColor = System.Drawing.Color.FromArgb(229, 126, 49);
+        }
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.Orange;
+            button4.ForeColor = Color.SteelBlue;
+        }
+        private void button5_MouseMove(object sender, MouseEventArgs e)
+        {
+            button5.BackColor = Color.SteelBlue;
+            button5.ForeColor = Color.Orange;
+        }
+        private void button5_MouseLeave(object sender, EventArgs e)
+        {
+            button5.BackColor = Color.Orange;
+            button5.ForeColor = Color.SteelBlue;
+        }
